@@ -14,3 +14,43 @@ h1 {
 h2 {
     color: #FD98FB; /* Başlık rengi */
 }
+
+
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h2 {
+    animation: color-change 3s infinite;
+}
+
+
+
+@keyframes big-change {
+    0% {
+      font-size: 24 ;
+    }
+  
+    50% {
+      font-size: 20;
+    }
+  
+    100% {
+      font-size: 24;
+    }
+}
+
+h3 {
+    animation: big-change 3s infinite;
+}
